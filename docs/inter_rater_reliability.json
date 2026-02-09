@@ -1,0 +1,64 @@
+{
+  "overall": {
+    "total_claims": 50,
+    "agreements": 48,
+    "disagreements": 2,
+    "simple_agreement": 0.96,
+    "cohens_kappa": 0.935483870967742,
+    "krippendorffs_alpha": 0.8819444444444444,
+    "interpretation": "Almost perfect agreement"
+  },
+  "disagreements": [
+    {
+      "claim_id": "MS_001",
+      "annotator1": "QuantitativeTarget",
+      "annotator2": "VagueTarget",
+      "verbatim_text": "Aiming to achieve net-zero financed emissions by 2050 with 2030 interim sector targets for our most carbon-intensive sectors in our corporate lending portfolio (compared to the 2019 base year)"
+    },
+    {
+      "claim_id": "MS_039",
+      "annotator1": "QuantitativeTarget",
+      "annotator2": "VagueTarget",
+      "verbatim_text": "Progress is measured against our representation objectives: increase senior management representation for women to 35%, U.K. ethnically diverse officers to 30%, and U.K. Black officers by 40%"
+    }
+  ],
+  "category_agreement": {
+    "annotator1_count": {
+      "AmbiguousBaseline": 1.0,
+      "NonClaim": 3.0,
+      "PeripheralClaim": 6.0,
+      "QuantitativeTarget": 5.0,
+      "VagueTarget": 6.0,
+      "VerifiedClaim": 29.0
+    },
+    "annotator2_count": {
+      "AmbiguousBaseline": 1.0,
+      "NonClaim": 3.0,
+      "PeripheralClaim": 6.0,
+      "QuantitativeTarget": 3.0,
+      "VagueTarget": 8.0,
+      "VerifiedClaim": 29.0
+    },
+    "precision": {
+      "AmbiguousBaseline": 100.0,
+      "NonClaim": 100.0,
+      "PeripheralClaim": 100.0,
+      "QuantitativeTarget": 60.0,
+      "VagueTarget": 100.0,
+      "VerifiedClaim": 100.0
+    },
+    "recall": {
+      "AmbiguousBaseline": 100.0,
+      "NonClaim": 100.0,
+      "PeripheralClaim": 100.0,
+      "QuantitativeTarget": 100.0,
+      "VagueTarget": 75.0,
+      "VerifiedClaim": 100.0
+    }
+  },
+  "boundary_cases": {
+    "flagged_by_either": 50,
+    "flagged_by_both": 2,
+    "agreement_on_boundary": 0.96
+  }
+}

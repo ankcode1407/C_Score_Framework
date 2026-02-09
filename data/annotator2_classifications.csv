@@ -1,0 +1,51 @@
+claim_id,annotator2_category,annotator2_rationale,annotator2_confidence,annotator2_boundary_case
+MS_001,VagueTarget,"While has target (net-zero by 2050) and baseline (2019), the word 'Aiming' is hedging language. Following decision tree: hedging language = automatic VagueTarget regardless of other elements",High,Yes
+MS_002,VagueTarget,"'Making progress toward' is vague language. No specific numeric target. Has deadline (2030) but lacks quantification. Clear VagueTarget.",High,No
+MS_003,VagueTarget,"'Aim to' is explicit hedging language (automatic VagueTarget per decision tree). No numeric target, no deadline, no baseline.",High,No
+MS_004,QuantitativeTarget,"Has numeric target ($1T), deadline (2030), scope (sustainable finance). 'Continue to make progress toward' could be seen as hedging, but the specific target overrides this. Baseline implicit from inception.",Medium,Yes
+MS_005,VerifiedClaim,"Retrospective with specific amounts ($820B, $640B), clear context (toward $1T goal), defined scope. All 4 elements present.",High,No
+MS_006,VerifiedClaim,"Past performance, specific amount ($97B), timeframe (2023), scope (ESG-labeled debt). All 4 elements.",High,No
+MS_007,VerifiedClaim,"Retrospective claim, specific outcomes (carbon neutral, 100%), timeframe (2023), scope (operations). Clear VerifiedClaim.",High,No
+MS_008,VagueTarget,"'Committed to engaging' is vague. 'Help move the world to net-zero' is not a firm-specific commitment. No quantification of firm's actions.",High,No
+MS_009,VerifiedClaim,"Specific percentage (80%), defined scope (committed financing), clear context. Retrospective assessment. All elements present.",High,No
+MS_010,VerifiedClaim,"'More than half' = specific (>50%), defined scope (three sectors, Scopes 1&2), clear context (client targets). This is about CLIENT targets not MS targets, but it's still a verifiable claim about MS's client base.",High,No
+MS_011,VerifiedClaim,"Specific percentage (60%), defined segment (Power clients), specific actions. Verifiable claim about client portfolio.",High,No
+MS_012,VerifiedClaim,"'All' = 100%, specific target (>50% sales), deadline (2030), defined sector. Verifiable claim about clients.",High,No
+MS_013,VerifiedClaim,"Specific volume (5.7M MWhs), timeframe (2023), scope (renewable energy). All 4 elements. Past performance.",High,No
+MS_014,VagueTarget,"'Will focus on' + 'seek to reduce' = hedging language. No specific MS targets or metrics. Vague intention.",High,No
+MS_015,NonClaim,"'Continue to develop and distribute' is aspirational but makes no specific claim. 'Help them achieve their ambitions' is too vague to be verifiable. Generic values statement.",High,No
+MS_016,VerifiedClaim,"Specific amount ($50B AUM), defined categories of sustainability features, clear scope. Retrospective claim.",High,No
+MS_017,VerifiedClaim,"Specific assets ($77B), quantified products (360+), clear platform (IIP). All elements present.",High,No
+MS_018,VerifiedClaim,"Specific count (>336K clients), defined platform. Simple but verifiable retrospective claim.",High,No
+MS_019,VerifiedClaim,"Specific amount ($3B), timeframe (2023), clear scope (CRA-qualified). All 4 elements.",High,No
+MS_020,VerifiedClaim,"Specific percentage (40%), clear scope (global women employees). Current state = retrospective claim.",High,No
+MS_021,VerifiedClaim,"Specific percentages for three groups (8%, 9%, 15%), clear scope (U.S. employees). Multiple metrics but all verifiable.",High,No
+MS_022,PeripheralClaim,"About governance process (incorporating climate risks into risk management). Not about performance outcomes. Clear PeripheralClaim.",High,No
+MS_023,PeripheralClaim,"Board oversight structure. Governance claim, not performance. PeripheralClaim.",High,No
+MS_024,PeripheralClaim,"Framework guidance for target progress. Governance/process, not performance. PeripheralClaim.",High,No
+MS_025,VerifiedClaim,"Specific count (1,700 students), timeframe (2023), defined program. Retrospective claim.",High,No
+MS_026,VerifiedClaim,"Specific counts (460 colleges, 22 countries), timeframe (2023). Verifiable diversity metric.",High,No
+MS_027,VerifiedClaim,"Multiple specific metrics (60K, 75%, 34 countries, 295K hours), timeframe (2023). Comprehensive VerifiedClaim.",High,No
+MS_028,VerifiedClaim,"Specific amount ($160M), timeframe (2023), scope (firm+foundations+employees). Clear retrospective claim.",High,No
+MS_029,VerifiedClaim,"Specific metrics (32K students, 700 hours), timeframe (2023). Verifiable impact claim.",High,No
+MS_030,VerifiedClaim,"Specific benefit (16 sessions), scope (US employees & dependents), cost (zero). This is about program benefits, which is verifiable.",High,No
+MS_031,VerifiedClaim,"Specific counts (92 companies), amounts ($1B, $200M). 'To date' makes it retrospective cumulative claim.",High,No
+MS_032,VerifiedClaim,"Specific percentages with YoY comparison (28% to 29%), years (2022-2023), scope (Officers). All elements.",High,No
+MS_033,VerifiedClaim,"YoY comparison (47% to 48%), years specified, scope clear. VerifiedClaim.",High,No
+MS_034,VagueTarget,"'May result in' is conditional/hedging. 'We believe that this approach will ultimately' = hedging. No specific thresholds or timelines. Clear VagueTarget.",High,No
+MS_035,AmbiguousBaseline,"'Approximately half' (50%) is a percentage, but lacks baseline year, specific reduction amounts, unclear what 'explicit targets' means. Missing critical verification info.",High,No
+MS_036,QuantitativeTarget,"Specific target (1 gigaton CO2e), deadline (2050), scope (portfolio companies), baseline (from investment date). 'Seek to' is hedging BUT this describes the platform's goal, not MS's hedged commitment. Complex boundary case.",Medium,Yes
+MS_037,VerifiedClaim,"Specific amount ($250K), exact date (March 2023), recipient and purpose clear. Retrospective contribution.",High,No
+MS_038,VerifiedClaim,"Specific baseline (35% in 2017), endpoint (27%), metric (median pay gap), geography (UK). All elements for YoY comparison.",High,No
+MS_039,VagueTarget,"Has specific targets (35%, 30%, 40%) but MISSING deadline ('by when?'). Without deadline, cannot verify when this should be achieved. 3/4 elements = VagueTarget per decision tree.",Medium,Yes
+MS_040,NonClaim,"'Will continue to be transparent' is aspirational statement without specific disclosure commitments or metrics. Generic values statement.",High,No
+MS_041,QuantitativeTarget,"Specific baseline ($820B since 2018), clear target ($1T by 2030), scope (sustainable solutions). Has all 4 elements. 'Putting us on track' describes progress, not hedging the commitment itself.",High,No
+MS_042,PeripheralClaim,"Framework alignment statement. About reporting methodology, not performance. PeripheralClaim.",High,No
+MS_043,PeripheralClaim,"Addition of engagement theme is governance expansion. No performance metrics. PeripheralClaim.",High,No
+MS_044,NonClaim,"Mission statement ('brings together in shared commitment to') without specific actions or verifiable outcomes. NonClaim.",High,No
+MS_045,VerifiedClaim,"Specific percentage (100%), timeframe (2023), scope (renewable electricity). Simple but complete VerifiedClaim.",High,No
+MS_046,VerifiedClaim,"Specific percentage (4%), two years (2022, 2023), scope (U.S. Black Officers). YoY comparison claim.",High,No
+MS_047,PeripheralClaim,"Methodological assumption statement. About premise of targets, not performance. PeripheralClaim.",High,No
+MS_048,VerifiedClaim,"Specific count (48 transactions), amount ($170B), baseline (since 2021), role defined. All elements.",High,No
+MS_049,VerifiedClaim,"Specific quantity (25 students), frequency (annually), geography (UK). Program description is verifiable.",High,No
+MS_050,VagueTarget,"'May not meet' is conditional/hedging language. 'Without sufficient change' is vague condition. No specific thresholds. Acknowledges potential failure without specifics.",High,No

@@ -1,0 +1,65 @@
+{
+  "scenarios": {
+    "Conservative": {
+      "weighted_sum": 31.699999999999996,
+      "raw_avg": 0.6744680851063829,
+      "w_max": 1.2,
+      "normalized": 0.5620567375886525,
+      "penalty_frac": 0.15,
+      "clamped": 0.41205673758865247,
+      "final_score": 41.205673758865245
+    },
+    "Current (Theoretical)": {
+      "weighted_sum": 36.99999999999999,
+      "raw_avg": 0.7872340425531913,
+      "w_max": 1.2,
+      "normalized": 0.6560283687943261,
+      "penalty_frac": 0.15,
+      "clamped": 0.5060283687943261,
+      "final_score": 50.60283687943261
+    },
+    "Aggressive": {
+      "weighted_sum": 46.39999999999999,
+      "raw_avg": 0.9872340425531914,
+      "w_max": 1.2,
+      "normalized": 0.8226950354609929,
+      "penalty_frac": 0.15,
+      "clamped": 0.6726950354609929,
+      "final_score": 67.26950354609929
+    },
+    "Empirically-Calibrated": {
+      "weighted_sum": 33.80000000000002,
+      "raw_avg": 0.7191489361702131,
+      "w_max": 1.2,
+      "normalized": 0.5992907801418443,
+      "penalty_frac": 0.15,
+      "clamped": 0.4492907801418443,
+      "final_score": 44.929078014184434
+    },
+    "Equal Weights": {
+      "weighted_sum": 33.0,
+      "raw_avg": 0.7021276595744681,
+      "w_max": 1.2,
+      "normalized": 0.5851063829787234,
+      "penalty_frac": 0.15,
+      "clamped": 0.4351063829787234,
+      "final_score": 43.51063829787234
+    }
+  },
+  "statistics": {
+    "mean": 49.50354609929078,
+    "std": 9.407795403569033,
+    "cv": 19.004285843885867,
+    "min": 41.205673758865245,
+    "max": 67.26950354609929,
+    "range": 26.06382978723404
+  },
+  "rank_order_stability": {
+    "stable": true,
+    "consistent_order": [
+      "Climate",
+      "Sustainable Finance",
+      "Human Capital"
+    ]
+  }
+}

@@ -1,0 +1,16 @@
+{
+    "weighted_sum": 37.00000000000001,
+    "n_total": 50,
+    "n_eff": 47,
+    "avg_fraction": 0.7872340425531916,
+    "penalties_applied": {
+        "ScopeOmission": 1
+    },
+    "penalty_sum": 0.15,
+    "final_c_score": 63.72340425531916,
+    "section_scores": {
+        "Climate": 21.764705882352935,
+        "Human Capital": 119.99999999999997,
+        "Sustainable Finance": 103.125
+    }
+}
