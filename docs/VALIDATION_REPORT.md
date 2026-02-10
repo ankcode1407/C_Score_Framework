@@ -518,25 +518,6 @@ High agreement likely reflects:
 
 ---
 
-## 11. RECOMMENDED PAPER POSITIONING
-
-### 11.1 Title
-**"C_Score Framework: Framework Development and Proof-of-Concept Demonstration"**
-
-### 11.2 Abstract Language
-- Use: "proof-of-concept demonstration," "illustrative evidence," "preliminary findings"
-- Avoid: "validated," "confirmed," "proven," "systematic analysis"
-
-### 11.3 Contributions Statement
-**Accurate framing:**
-> "We developed a theoretically-grounded framework and demonstrated its operational feasibility through a 50-claim case study of Morgan Stanley's 2023 ESG Report, achieving 96% inter-rater agreement and detecting strategic ambiguity in climate disclosures. Future work must establish cross-sector validation and larger sample sizes."
-
-### 11.4 Limitations Transparency
-**Lead with constraints:**
-> "This pilot study used the same 50-claim dataset for both framework development and testing, creating risk of overfitting. True validation requires independent test sets, cross-sector replication, and larger samples (n≥200). Sector multipliers represent theoretical calibration based on SASB/CDP guidance rather than empirical estimation."
-
----
-
 ## APPENDICES
 
 ### Appendix A: Dataset Transparency
